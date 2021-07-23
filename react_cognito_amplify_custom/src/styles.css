@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --amplify-primary-color: #03506F;
+  --amplify-primary-tint: #ff7359;
+  --amplify-primary-shade: #e0573e;
+  --amplify-background-color: #E6E6E6;
+  background-color:#A7BBC7;
+}
+
+amplify-authenticator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color:#A7BBC7;
+  --container-height: 95vh;
+  /* --box-shadow: yellow; */
+}
+
+amplify-forgot-password {
+  display: flex;
+  background-color:black;
+}
+
+amplify-sign-out {
+  display: flex;
+  flex: 1;
+  width: 100px;
+  /* --container-height: 195vh; */
+}
+
